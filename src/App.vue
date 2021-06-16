@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    test
-      <page-layout></page-layout>
+      <admin-layout></admin-layout>
   </div>
 </template>
 
 <script>
-import PageLayout from "@/layout/PageLayout.vue";
+import AdminLayout from "@/layout/AdminLayout.vue";
 export default {
   name: 'App',
   components: {
-    PageLayout
+    AdminLayout
   }
 }
 </script>
